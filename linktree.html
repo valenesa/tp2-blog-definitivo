@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>linktree</title>
+    <link rel="icon" href="linkt/fotos/mysql.png" type="image/png">
+    
+
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+
+        }
+
+        img {
+            width: 120px;
+            border-radius: 100px;
+            height: 120px;
+            margin-top: 40px;
+            margin-bottom: 30px;
+        }
+
+        header {
+            text-align: center;
+           font-family: "Archivo Black", sans-serif;
+
+        }
+
+        header ul li {
+            display: inline;
+
+        }
+
+        header .icon {
+            width: 50px;
+            height: 50px;
+            margin-top: 10px;
+            
+
+        }
+
+        div {
+            text-align: center;
+            margin-top: 50px;
+            margin-bottom: 30px;
+
+        }
+
+    
+
+        .btn-gradient {
+            padding: 10px 200px;
+            background: linear-gradient(45deg, #323ee1, #4791ce);
+            color: rgb(51, 3, 243);
+            border: none;
+            border-radius: 30px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: transform 0.3s;
+            margin-bottom: 30px;
+            height: 60px;
+            font-family: "Michroma", sans-serif;
+
+
+        }
+
+        .btn-gradient:hover {
+            transform: scale(1.07);
+        }
+
+        #video-fondo {
+            width: 100vw;
+            height: 100vh;
+            object-fit: cover;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: -1;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <img src="linkt/fotos/WhatsApp Image 2025-07-08 at 19.53.50_0967316f.jpg" alt="imagen mia">
+        <h1 >Valentino Beltramini</h1>
+        <h2 >Explora mis paginas web!</h2>
+        <ul>
+            <li><a href="https://steamcommunity.com/profiles/76561199064265237/" target="_blank"><img class="icon" src="linkt/fotos/steam_icon_135152.png"
+                        alt="steam" ></a></li>
+            <li><a href="https://www.instagram.com/valen.beltramini/" target="_blank"><img class="icon" src="linkt/fotos/instagram_f_icon-icons.com_2.png" alt="instagram" ></a>
+            </li>
+            <li><a href="https://www.promiedos.com.ar/" target="_blank"><img
+                        class="icon" src="linkt/fotos/variante-de-balon-de-futbol.png" alt="futbol" ></a></li>
+
+
+
+
+
+        </ul>
+    </header>
+
+    <div>
+        <a href="index.html"><button class="btn-gradient">IDENTIKIT</button></a>
+        <br>
+        <a href="blog.html"><button class="btn-gradient">BLOG </button></a>
+        <br>
+        <a href="https://github.com/valenesa"><button class="btn-gradient">GITHUB</button></a>
+
+
+    </div>
+    <video id="video-fondo" autoplay loop muted>
+        <source src="linkt/fotos/3765078-uhd_3840_2160_30fps.mp4" type="video/mp4">
+
+
+    </video>
+
+</body>
+
+</html>
